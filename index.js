@@ -2,7 +2,7 @@ const express = require('express');
 const app = express()
 const PORT = 3000;
 app.use((req,res,next)=>{
-  console.log(req.baseUrl,"middleware here")
+  console.log(req.baseUrl,)
   next()
 })
 app.use(express.json());
