@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.get('/',(req,res)=>{
   res.json({
-    "message":"hello world"
+    "message":"hello world!! node deploy ec2"
   })
 })
 app.listen(PORT,()=>{
